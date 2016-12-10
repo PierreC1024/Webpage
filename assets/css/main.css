@@ -2220,8 +2220,9 @@
 		}
 
 			ul.labeled-icons li {
+				display: inline-block;
 				line-height: 1.75em;
-				margin: 1.5em 0 0 0;
+				margin: 1.5em 0.5em 0.5em 1.5em;
 				padding-left: 2.25em;
 				position: relative;
 			}
@@ -2240,7 +2241,7 @@
 					position: absolute;
 					text-align: center;
 					top: 0;
-					width: 1em;
+					width: 2em;
 				}
 
 	dl {
@@ -2535,6 +2536,7 @@
 
 	#footer .icons {
 		margin: 1em 0 0 0;
+		
 	}
 
 		#footer .icons a {
